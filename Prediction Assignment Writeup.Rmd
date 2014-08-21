@@ -125,7 +125,7 @@ Having `r nrow(training)` rows to **training** the model, and `r nrow(testing)` 
 
 ### Training
 
-We train a classification model using Random Forest, [that doesn't need for for cross-validation or a separate test set to get an unbiased estimate of the test set error:](http://www.stat.berkeley.edu/~breiman/RandomForests/cc_home.htm#ooberr):
+We train a classification model using Random Forest, [that doesn't need for for cross-validation or a separate test set to get an unbiased estimate of the test set error](http://www.stat.berkeley.edu/~breiman/RandomForests/cc_home.htm#ooberr):
 
 ```{r}
 set.seed(32343)
